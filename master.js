@@ -24,6 +24,7 @@ async function run(registry) {
         help: 'Example of a master counter',
     })
 
+
     setInterval(() => {
         c.inc();
     }, 5000);
